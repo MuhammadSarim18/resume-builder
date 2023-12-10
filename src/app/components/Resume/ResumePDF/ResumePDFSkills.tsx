@@ -16,7 +16,7 @@ export const ResumePDFSkills = ({
 }: {
   heading: string;
   skills: ResumeSkills;
-  themeColor: "000";
+  themeColor: '#000';
   showBulletPoints: boolean;
 }) => {
   const { descriptions, featuredSkills } = skills;

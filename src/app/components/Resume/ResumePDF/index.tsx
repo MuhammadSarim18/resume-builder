@@ -86,7 +86,7 @@ export const ResumePDF = ({
       <ResumePDFSkills
         heading={formToHeading["skills"]}
         skills={skills}
-        themeColor={themeColor}
+        themeColor='#000'
         showBulletPoints={showBulletPoints["skills"]}
       />
     ),
